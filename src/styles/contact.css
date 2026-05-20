@@ -1,0 +1,81 @@
+.contact-wrapper{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+  margin-top: 100px;
+}
+
+.contact-info,
+.contact-form{
+  padding:25px;
+  border-radius:10px;
+}
+
+.contact-info h3{
+  font-size:1.5rem;
+  margin-bottom:40px;
+  line-height:1.4;
+}
+
+.info-item{
+  margin-bottom:30px;
+}
+
+.info-item span{
+  color:#00f2fe;
+  display:block;
+  margin-bottom:10px;
+}
+
+.info-item p{
+  color:#d0d4dc;
+}
+
+.contact-form{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.linkedin-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.linkedin-btn:hover {
+  transform: translateY(-3px);
+}
+
+.contact-form input,
+.contact-form textarea{
+  width:100%;
+  padding:10px;
+  border:none;
+  outline:none;
+  border-radius:15px;
+  background:rgba(255,255,255,0.05);
+  color:white;
+}
+
+.contact-form button{
+  padding:10px;
+  border-radius:10px;
+  background:linear-gradient(to right,#4facfe,#00f2fe);
+  color:white;
+  font-size:1rem;
+  font-weight:600;
+}
+
+@media screen and (max-width: 992px){
+
+  .contact-wrapper{
+    grid-template-columns:1fr;
+  }
+
+}

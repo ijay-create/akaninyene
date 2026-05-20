@@ -1,0 +1,29 @@
+.achievements-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+  margin-top:60px;
+}
+
+.achievement-card{
+  padding:20px 10px;
+  border-radius:25px;
+  text-align:center;
+  transition:0.4s;
+}
+
+.achievement-card:hover{
+  transform:translateY(-10px);
+}
+
+.achievement-card h2{
+  font-size:2rem;
+  margin-bottom:20px;
+  background:linear-gradient(to right,#4facfe,#00f2fe);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.achievement-card p{
+  color:#b6bcc8;
+}

@@ -1,0 +1,90 @@
+@media screen and (max-width: 992px){
+
+  .section-title{
+    font-size:2.3rem;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+
+  section{
+    padding:90px 0;
+  }
+
+  .section-title{
+    font-size:2rem;
+  }
+
+}
+
+@media screen and (max-width: 500px){
+
+  .container{
+    width:92%;
+  }
+
+  .section-title{
+    font-size:1.8rem;
+  }
+
+}
+
+@media screen and (max-width: 992px){
+
+  .hero-left h1{
+    font-size:3rem;
+  }
+
+  .image-wrapper{
+    width:100%;
+    max-width:400px;
+    height:500px;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+
+  .hero{
+    padding-top:140px;
+  }
+
+  .hero-left h1{
+    font-size:2.4rem;
+  }
+
+  .hero-buttons{
+    flex-direction:column;
+  }
+
+  .metric-card{
+    width:100%;
+  }
+
+  .quote p{
+    font-size:1.1rem;
+  }
+
+  .footer-bottom{
+    flex-direction:column;
+    gap:20px;
+  }
+
+}
+
+@media screen and (max-width: 500px){
+
+  .section-title{
+    font-size:1.7rem;
+  }
+
+  .hero-left h1{
+    font-size:2rem;
+  }
+
+  .contact-info h3{
+    font-size:1.5rem;
+  }
+
+}

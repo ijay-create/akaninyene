@@ -1,0 +1,39 @@
+.cert-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:30px;
+  margin-top:60px;
+}
+
+.cert-card{
+  position:relative;
+  padding:20px 15px;
+  border-radius:25px;
+  overflow:hidden;
+  transition:0.4s;
+}
+
+.cert-card:hover{
+  transform:translateY(-10px);
+}
+
+.cert-card h3{
+  position:relative;
+  z-index:2;
+  line-height:1.6;
+}
+
+.shine{
+  position:absolute;
+  width:120px;
+  height:300%;
+  background:rgba(255,255,255,0.08);
+  top:-100%;
+  left:-120px;
+  transform:rotate(25deg);
+  transition:1s;
+}
+
+.cert-card:hover .shine{
+  left:120%;
+}
