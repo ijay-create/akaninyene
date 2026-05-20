@@ -49,7 +49,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/YOUR_PROFILE"
+              href="https://linkedin.com/in/akaninyeneudohspecial040289"
               target="_blank"
               rel="noreferrer"
             >
@@ -64,7 +64,7 @@ const Footer = () => {
               <FaTwitter />
             </a>
 
-            <a href="mailto:yourmail@gmail.com">
+            <a href="mailto:akaninyeneini.udoh@gmail.com">
               <FaEnvelope />
             </a>
 
