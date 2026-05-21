@@ -84,8 +84,8 @@ const Hero = () => {
             AKANINYENE INI UDOH
           </h2>
 
-          <h1>
-            {hero?.title || "Building"}{" "}
+          <h1 className="gradient-text">
+            {hero?.title || "Building"}
             <span className="gradient-text">
               {hero?.highlight || "Reliable Digital Infrastructure"}
             </span>
