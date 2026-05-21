@@ -4,11 +4,16 @@ import "../styles/certifications.css";
 
 const Certifications = () => {
   const certs = [
-    "ITIL V4",
+    "Oracle Cloud Infrastructure Foundations Associate",
+    "Oracle Cloud Infrastructure Architect Associate",
+    "Oracle Cloud Infrastructure Observability Professional",
+    "Oracle Cloud Infrastructure Autonomous Database Professional",
+    "Oracle Cloud Infrastructure Migration Architect Professional",
+    "Oracle Cloud Infrastructure MultiCloud Architect Professional",
+    "ITIL v4 Foundation Certification",
     "ServiceNow IT Leadership Certificate",
     "DevOps Professional Certificate",
-    "BluePrism Foundation Training",
-    "6x Oracle Cloud Infrastructure Certifications",
+    "Blue Prism Foundation Training",
   ];
 
   return (
@@ -20,8 +25,12 @@ const Certifications = () => {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
         >
-          Certifications & Training
+          Certifications & Professional Training
         </motion.h2>
+
+        <p className="cert-subtitle">
+          Cloud, DevOps, IT Service Management, and Enterprise Automation certifications across Oracle Cloud Infrastructure and industry tools.
+        </p>
 
         <div className="cert-grid">
 
@@ -31,7 +40,7 @@ const Certifications = () => {
               key={index}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.2 }}
+              transition={{ delay: index * 0.1 }}
             >
               <div className="shine"></div>
 
